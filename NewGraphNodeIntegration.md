@@ -74,8 +74,9 @@ Configuring Graph Node is as easy as preparing your local environment. Once your
 3. Run an IPFS node or use the one used by The Graph: https://api.thegraph.com/ipfs/
 
 <details><summary>**Testing an EVM JSON-RPC by locally deploying a subgraph**</summary>
+    
 <br>
-1. Install [graph-cli](https://github.com/graphprotocol/graph-cli)/n
+1. Install [graph-cli](https://github.com/graphprotocol/graph-cli)
 2. Create a simple example subgraph. Some options are below:
     1. The pre-packed [Gravitar](https://github.com/graphprotocol/example-subgraph/tree/f89bdd4628efa4badae7367d4919b3f648083323) smart contract and subgraph is a good starting point
     2. Bootstrap a local subgraph from any existing smart contract or solidity dev environment [using Hardhat with a Graph plugin](https://github.com/graphprotocol/hardhat-graph)
@@ -84,6 +85,7 @@ Configuring Graph Node is as easy as preparing your local environment. Once your
 5. Publish your subgraph to Graph Node: `graph deploy $SUBGRAPH_NAME --ipfs $IPFS_ENDPOINT --node $GRAPH_NODE_ENDPOINT`
 
 Graph Node should be syncing the deployed subgraph if there are no errors. Give it time to sync, then send some GraphQL queries to the API endpoint printed in the logs.
+
 </details>
 
 # Substreams-powered Subgraphs
