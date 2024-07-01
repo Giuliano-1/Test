@@ -76,7 +76,7 @@ Configuring Graph Node is as easy as preparing your local environment. Once your
 <details><summary><h3>Testing an EVM JSON-RPC by locally deploying a subgraph</summary>
     
 <br>
-1. Install [graph-cli](https://github.com/graphprotocol/graph-cli)<br>
+1. Install <a href="https://github.com/graphprotocol/graph-cli">graph-cli</a><br>
 2. Create a simple example subgraph. Some options are below:<br>
     1. The pre-packed [Gravitar](https://github.com/graphprotocol/example-subgraph/tree/f89bdd4628efa4badae7367d4919b3f648083323) smart contract and subgraph is a good starting point<br>
     2. Bootstrap a local subgraph from any existing smart contract or solidity dev environment [using Hardhat with a Graph plugin](https://github.com/graphprotocol/hardhat-graph)<br>
