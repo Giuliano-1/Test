@@ -87,7 +87,7 @@ Configuring Graph Node is as easy as preparing your local environment. Once your
 <li>Create your subgraph in Graph Node: <code>graph create $SUBGRAPH_NAME --node $GRAPH_NODE_ENDPOINT</code><br></li>
 <li>Publish your subgraph to Graph Node: <code>graph deploy $SUBGRAPH_NAME --ipfs $IPFS_ENDPOINT --node $GRAPH_NODE_ENDPOINT</code><br></li>
 </ol>
-<br>
+
 Graph Node should be syncing the deployed subgraph if there are no errors. Give it time to sync, then send some GraphQL queries to the API endpoint printed in the logs.<br>
 
 </details>
