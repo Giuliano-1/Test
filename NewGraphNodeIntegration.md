@@ -78,11 +78,11 @@ Configuring Graph Node is as easy as preparing your local environment. Once your
 <br>
 1. Install <a href="https://github.com/graphprotocol/graph-cli">graph-cli</a><br>
 2. Create a simple example subgraph. Some options are below:<br>
-    1. The pre-packed [Gravitar](https://github.com/graphprotocol/example-subgraph/tree/f89bdd4628efa4badae7367d4919b3f648083323) smart contract and subgraph is a good starting point<br>
-    2. Bootstrap a local subgraph from any existing smart contract or solidity dev environment [using Hardhat with a Graph plugin](https://github.com/graphprotocol/hardhat-graph)<br>
-3. Adapt the resulting `subgraph.yaml` by changing [`dataSources.network`](http://datasources.network/) to the same name previously passed on to Graph Node.<br>
-4. Create your subgraph in Graph Node: <code>graph create $SUBGRAPH_NAME --node $GRAPH_NODE_ENDPOINT</code>code><br>
-5. Publish your subgraph to Graph Node: `graph deploy $SUBGRAPH_NAME --ipfs $IPFS_ENDPOINT --node $GRAPH_NODE_ENDPOINT`<br>
+    1. The pre-packed <a href="https://github.com/graphprotocol/example-subgraph/tree/f89bdd4628efa4badae7367d4919b3f648083323">Gravitar</a> smart contract and subgraph is a good starting point<br>
+    2. Bootstrap a local subgraph from any existing smart contract or solidity dev environment <a href="https://github.com/graphprotocol/hardhat-graph">using Hardhat with a Graph plugin</a><br>
+3. Adapt the resulting <code>subgraph.yaml</code>code> by changing <a href="http://datasources.network/"><code>dataSources.network</code></a> to the same name previously passed on to Graph Node.<br>
+4. Create your subgraph in Graph Node: <code>graph create $SUBGRAPH_NAME --node $GRAPH_NODE_ENDPOINT</code><br>
+5. Publish your subgraph to Graph Node: <code>graph deploy $SUBGRAPH_NAME --ipfs $IPFS_ENDPOINT --node $GRAPH_NODE_ENDPOINT</code>code><br>
 <br>
 Graph Node should be syncing the deployed subgraph if there are no errors. Give it time to sync, then send some GraphQL queries to the API endpoint printed in the logs.<br>
 
