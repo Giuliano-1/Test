@@ -75,7 +75,6 @@ Configuring Graph Node is as easy as preparing your local environment. Once your
 
 <details><summary><h3>Testing an EVM JSON-RPC by locally deploying a subgraph</summary>
     
-<br>
 <ol>
 <li>Install <a href="https://github.com/graphprotocol/graph-cli">graph-cli</a><br></li>
 <li>Create a simple example subgraph. Some options are below:<br></li>
