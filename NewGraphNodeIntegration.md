@@ -83,12 +83,12 @@ Configuring Graph Node is as easy as preparing your local environment. Once your
     <li>The pre-packed <a href="https://github.com/graphprotocol/example-subgraph/tree/f89bdd4628efa4badae7367d4919b3f648083323">Gravitar</a> smart contract and subgraph is a good starting point<br></li>
     <li>Bootstrap a local subgraph from any existing smart contract or solidity dev environment <a href="https://github.com/graphprotocol/hardhat-graph">using Hardhat with a Graph plugin</a><br></li>
     </ul>
-<li>Adapt the resulting <code>subgraph.yaml</code>code> by changing <a href="http://datasources.network/"><code>dataSources.network</code></a> to the same name previously passed on to Graph Node.<br></li>
+<li>Adapt the resulting <code>subgraph.yaml</code> by changing <a href="http://datasources.network/"><code>dataSources.network</code></a> to the same name previously passed on to Graph Node.<br></li>
 <li>Create your subgraph in Graph Node: <code>graph create $SUBGRAPH_NAME --node $GRAPH_NODE_ENDPOINT</code><br></li>
 <li>Publish your subgraph to Graph Node: <code>graph deploy $SUBGRAPH_NAME --ipfs $IPFS_ENDPOINT --node $GRAPH_NODE_ENDPOINT</code><br></li>
+</ol>
 <br>
 Graph Node should be syncing the deployed subgraph if there are no errors. Give it time to sync, then send some GraphQL queries to the API endpoint printed in the logs.<br>
-</ol>
 
 </details>
 
